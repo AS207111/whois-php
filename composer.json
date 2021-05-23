@@ -1,0 +1,20 @@
+{
+    "name": "as207111/whois",
+    "description": "Geolocation, Proxy, VPN or Tor exit address detection, for free.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "René Preuß",
+            "email": "rene@preuss.io"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AS207111\\Whois\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3"
+    }
+}
